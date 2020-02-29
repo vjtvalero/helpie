@@ -1,0 +1,94 @@
+.landing-header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.landing-header-logo-text {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.landing-header-logo-text:hover {
+    text-decoration: none;
+}
+
+.landing-header-logo {
+    height: auto;
+    width: 2.4rem;
+    padding-top: 0;
+    vertical-align: top;
+    margin-right: 0.4rem;
+}
+
+.landing-header a:hover,
+.landing-navbar a:hover {
+    text-decoration: none;
+}
+
+.landing-navbar {
+    background-color: #595959;
+    border-top: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+}
+
+.carousel-item {
+    height: 15rem;
+}
+
+.panel {
+    background-color: #f2f2f2;
+    padding: 0.6rem;
+}
+
+.accordion .card,
+.card-header,
+.card-body {
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.accordion .btn {
+    color: black;
+    text-decoration: none;
+}
+
+.fontawesome {
+    font-family: 'Nunito', FontAwesome, sans-serif;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card .card-img-top {
+    height: 10rem;
+}
+
+.card-title {
+    font-size: 0.8rem;
+}
+
+.card-body {
+    background-color: white;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+.card-columns {
+    column-gap: 0;
+}
